@@ -15,7 +15,7 @@ Install from git url.
 ```
 
 ```text
-https://github.com/CodeNofish/EqualityGenerator.git?path=/Assets/EqualityGenerator.git
+https://github.com/CodeNofish/EqualityGenerator.git?path=/Assets/EqualityGenerator
 ```
 
 for more information see [Generator.Equals repo](https://github.com/diegofrata/Generator.Equals).
