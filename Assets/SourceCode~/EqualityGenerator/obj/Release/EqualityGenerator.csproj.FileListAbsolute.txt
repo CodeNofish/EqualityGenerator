@@ -1,0 +1,8 @@
+C:\Users\Administrator\MyProject\EqualityGenerator\Assets\SourceCode~\EqualityGenerator\obj\Release\EqualityGenerator.csproj.AssemblyReference.cache
+C:\Users\Administrator\MyProject\EqualityGenerator\Assets\SourceCode~\EqualityGenerator\obj\Release\EqualityGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\MyProject\EqualityGenerator\Assets\SourceCode~\EqualityGenerator\obj\Release\EqualityGenerator.AssemblyInfoInputs.cache
+C:\Users\Administrator\MyProject\EqualityGenerator\Assets\SourceCode~\EqualityGenerator\obj\Release\EqualityGenerator.AssemblyInfo.cs
+C:\Users\Administrator\MyProject\EqualityGenerator\Assets\SourceCode~\EqualityGenerator\obj\Release\EqualityGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\MyProject\EqualityGenerator\Assets\SourceCode~\EqualityGenerator\obj\Release\EqualityGenerator.dll
+C:\Users\Administrator\MyProject\EqualityGenerator\EqualityGenerator.dll
+C:\Users\Administrator\MyProject\EqualityGenerator\Assets\EqualityGenerator\Generator\EqualityGenerator.dll

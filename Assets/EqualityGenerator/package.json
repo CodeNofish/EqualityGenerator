@@ -1,0 +1,25 @@
+﻿{
+  "name": "codegen.equality",
+  "displayName": "EqualityGenerator",
+  "author": {
+    "name": "猫咪红茶",
+    "email": "1980114953@qq.com",
+    "url": "https://github.com/CodeNofish"
+  },
+  "version": "1.0.0",
+  "unity": "6000.0",
+  "description": "Generator.Equals for Unity.",
+  "keywords": [
+    "roslyn",
+    "equality",
+    "codegen"
+  ],
+  "license": "MIT",
+  "category": "Scripting",
+  "dependencies": {
+  },
+  "samples": [],
+  "documentationUrl": "https://github.com/CodeNofish/EqualityGenerator/blob/main/Assets/EqualityGenerator/CHANGELOG.md",
+  "changelogUrl": "https://github.com/CodeNofish/EqualityGenerator/blob/main/Assets/EqualityGenerator/CHANGELOG.md",
+  "licensesUrl": "https://github.com/CodeNofish/EqualityGenerator/blob/main/Assets/EqualityGenerator/LICENSE.md"
+}
