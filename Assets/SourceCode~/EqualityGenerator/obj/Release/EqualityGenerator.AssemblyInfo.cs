@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EqualityGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d700fbb4cf44e51c38b287d05d492901a6e62022")]
 [assembly: System.Reflection.AssemblyProductAttribute("EqualityGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EqualityGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

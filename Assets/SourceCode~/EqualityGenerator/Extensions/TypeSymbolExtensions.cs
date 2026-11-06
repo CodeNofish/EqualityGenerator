@@ -226,7 +226,7 @@ static class TypeSymbolExtensions {
   }
 
   /// <summary>
-  /// 判断类型的相等性是否由 Generator.Equals 生成：同程序集看可见的
+  /// 判断类型的相等性是否由 EqualityGenerator 生成：同程序集看可见的
   /// [Equatable] 特性，跨程序集则看生成的嵌套 EqualityComparer 类
   ///（此时 [Conditional] 特性已被擦除）。
   /// 与 <see cref="HasProperEquality"/> 不同，仅实现 IEquatable&lt;T&gt; 的类型不算，
@@ -297,12 +297,12 @@ static class TypeSymbolExtensions {
 
       // 检查完整命名空间
       var nsName = ns.ToDisplayString();
-      if (nsName == "Generator.Equals")
+      if (nsName == "EqualityGenerator")
         return true;
 
       // ToDisplayString 可能有差异，再用全限定名兜底
       var fullName = attrClass.ToDisplayString(SymbolDisplayFormat.FullyQualifiedFormat);
-      if (fullName is "global::Generator.Equals.EquatableAttribute" or "global::Generator.Equals.Equatable")
+      if (fullName is "global::EqualityGenerator.EquatableAttribute" or "global::EqualityGenerator.Equatable")
         return true;
     }
 

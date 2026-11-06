@@ -26,16 +26,16 @@ internal sealed record AttributesMetadata(
   /// </summary>
   internal static AttributesMetadata CreateDefault() {
     var attributesMetadata = new AttributesMetadata(
-      Equatable: AttributeMetadata.FromFullName("EqualityGenerator.EquatableAttribute")!,
-      DefaultEquality: AttributeMetadata.FromFullName("EqualityGenerator.DefaultEqualityAttribute")!,
-      OrderedEquality: AttributeMetadata.FromFullName("EqualityGenerator.OrderedEqualityAttribute")!,
-      IgnoreEquality: AttributeMetadata.FromFullName("EqualityGenerator.IgnoreEqualityAttribute")!,
-      UnorderedEquality: AttributeMetadata.FromFullName("EqualityGenerator.UnorderedEqualityAttribute")!,
-      ReferenceEquality: AttributeMetadata.FromFullName("EqualityGenerator.ReferenceEqualityAttribute")!,
-      SetEquality: AttributeMetadata.FromFullName("EqualityGenerator.SetEqualityAttribute")!,
-      StringEquality: AttributeMetadata.FromFullName("EqualityGenerator.StringEqualityAttribute")!,
-      CustomEquality: AttributeMetadata.FromFullName("EqualityGenerator.CustomEqualityAttribute")!,
-      PrecisionEquality: AttributeMetadata.FromFullName("EqualityGenerator.PrecisionEqualityAttribute")!,
+      Equatable: AttributeMetadata.FromFullName("EqualityGenerator.EquatableAttribute"),
+      DefaultEquality: AttributeMetadata.FromFullName("EqualityGenerator.DefaultEqualityAttribute"),
+      OrderedEquality: AttributeMetadata.FromFullName("EqualityGenerator.OrderedEqualityAttribute"),
+      IgnoreEquality: AttributeMetadata.FromFullName("EqualityGenerator.IgnoreEqualityAttribute"),
+      UnorderedEquality: AttributeMetadata.FromFullName("EqualityGenerator.UnorderedEqualityAttribute"),
+      ReferenceEquality: AttributeMetadata.FromFullName("EqualityGenerator.ReferenceEqualityAttribute"),
+      SetEquality: AttributeMetadata.FromFullName("EqualityGenerator.SetEqualityAttribute"),
+      StringEquality: AttributeMetadata.FromFullName("EqualityGenerator.StringEqualityAttribute"),
+      CustomEquality: AttributeMetadata.FromFullName("EqualityGenerator.CustomEqualityAttribute"),
+      PrecisionEquality: AttributeMetadata.FromFullName("EqualityGenerator.PrecisionEqualityAttribute"),
       StringComparisonLookup: new Dictionary<long, string> {
         [0] = "CurrentCulture",
         [1] = "CurrentCultureIgnoreCase",
