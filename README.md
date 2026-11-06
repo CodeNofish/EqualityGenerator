@@ -18,4 +18,4 @@ Install from git url.
 https://github.com/CodeNofish/EqualityGenerator.git?path=/Assets/EqualityGenerator
 ```
 
-for more information see `https://github.com/diegofrata/Generator.Equals`.
+for more information see [Generator.Equals repo](https://github.com/diegofrata/Generator.Equals).
